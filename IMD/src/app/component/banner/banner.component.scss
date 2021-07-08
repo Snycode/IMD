@@ -1,0 +1,40 @@
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 1rem auto;
+    padding: 2rem;
+   
+
+    #left-arrow{
+    font-size: 4rem;
+    margin-right: 2rem;
+    color: #4F6384;
+    }
+
+    #right-arrow{
+    font-size: 4rem;
+    margin-left: 2rem;
+    color: #4F6384;
+    }
+
+    .banner_text{
+        font-size: 5rem;
+        margin-right: 1rem;
+        height: 56vh;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .banner_img{
+    width: 50%;
+    box-shadow: .2rem .2rem .3rem;
+    box-shadow: .4rem .4rem .3rem #4F6384;
+    
+    }
+  
+}
+

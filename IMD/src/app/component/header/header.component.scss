@@ -2,12 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60vw;
+    width: 80vw;
     margin: 1rem auto;
-    border: .1rem solid #222;
     padding: 2rem;
+    
     .header_logo{
-        margin-left: 2rem;
+    margin-left: 2rem;
+        
+    }
+    .header_img{
+        width: 10rem;
+        border-radius: .3rem;
+        border: .1rem solid #17263D;
+        box-shadow: .3rem .3rem #4F6384;
     }
     .header_unordered{
         display: flex;
@@ -16,7 +23,18 @@
         margin-left: 1rem;
         list-style: none;
         font-size: 1.8rem;
-        border: .1rem solid #222;
-        box-shadow: .2rem .2rem;
+        border: .1rem solid #9AB5D2;
+        box-shadow: .2rem .2rem  #9AB5D2;
+        background-color: #9AB5D2;
+        padding: .5rem;
+        color: #f4f5f6;
+        border-radius: .3rem;
+
+        &:hover{
+        background-color: #4F6384;
+        transition: 1.5s;
+        cursor: pointer;
+        text-shadow: .1rem .1rem;
+        }
     }
 }

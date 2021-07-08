@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+$primary-bgcolor: #fff;
+
+body{
+   background-color: $primary-bgcolor; 
+}
+
 html{
     font-size: 62.5%;
 }
