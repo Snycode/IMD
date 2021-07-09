@@ -1,0 +1,72 @@
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20rem;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+  
+    
+}
+
+
+.footer_contact{
+    width: 5rem;
+    height: 5rem;
+   
+}
+
+.footer_text{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 1.7rem;
+}
+
+.footer_img{
+width: 7rem;
+
+&:hover{
+    width: 8rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-size: 9rem;
+}
+
+
+}
+
+
+#facebook_logo{
+    font-size: 5rem;
+    margin: 1rem;
+    color: #536FA2;
+    &:hover{
+        color:#344b77;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        font-size: 4rem
+    }
+}
+#instagram_logo{
+    font-size: 5rem;
+    margin: 1rem;
+    color: #536FA2;
+    &:hover{
+        color:#344b77;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        font-size: 4rem
+    }
+}
+#twitter_logo{
+    font-size: 5rem;
+    margin: 1rem;
+    color: #536FA2;
+    &:hover{
+        color:#344b77;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        font-size: 4rem
+    }
+}

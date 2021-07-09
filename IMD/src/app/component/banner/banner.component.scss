@@ -5,7 +5,8 @@
     width: 80vw;
     margin: 1rem auto;
     padding: 2rem;
-   
+    color: #4F6384;
+    transition: all .3s ease-in-out;
 
     #left-arrow{
     font-size: 4rem;
@@ -20,21 +21,31 @@
     }
 
     .banner_text{
-        font-size: 5rem;
+        font-size: 10rem;
         margin-right: 1rem;
         height: 56vh;
         display: flex;
         align-items: center;
         padding: 1rem;
-        text-align: center;
+        cursor: pointer;
+        font-family: 'Yomogi';    
+        text-transform: capitalize; 
+        opacity: .9;
+       
+    &:hover{
+        color: #17263D;
+        transition: all .3s ease-in-out;
     }
-
+    
+    }
+    
     .banner_img{
     width: 50%;
     box-shadow: .2rem .2rem .3rem;
     box-shadow: .4rem .4rem .3rem #4F6384;
-    
+    border-radius: .5rem;
     }
+    
   
 }
 

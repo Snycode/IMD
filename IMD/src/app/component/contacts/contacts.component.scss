@@ -1,0 +1,87 @@
+.contacts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    height: 50vh;
+    
+}
+.contacts_contacts{
+    width: 25%;
+    font-size: 1.8rem;
+    margin-left: 4rem;
+    border: .1rem solid #333;
+    text-align: center;
+    padding: 1rem;
+    height: 25rem;   
+    font-family: 'Otomanopee';
+    font-weight: bold;
+    text-shadow: .1.0rem .1.0rem;
+    box-shadow: .2rem .1rem .1rem;
+    background-color: #f4f5f6;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    border-radius: .3rem;
+}
+
+.contacts_title2{
+    margin-top: 1rem;
+    
+}
+.contacts_dates{
+    width: 30%;
+    font-size: 1.8rem;
+    margin-left: 15rem;
+    border: .1rem solid #333;
+    height: 25rem;
+    text-align: center;
+    font-family: 'Otomanopee';
+    font-weight: bold;
+    text-shadow: .1.0rem .1.0rem;
+    text-transform: capitalize;
+    background-color: #f4f5f6;
+    border-radius: .3rem;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    border-radius: .3rem;
+    
+}
+.contacts_input{
+    text-align: center;
+    padding: .5rem;
+    margin:.5rem;
+   
+}
+.contacts_input-phone{
+    text-align: center;
+    padding: .5rem;
+    margin:.5rem;
+   
+}
+.contacts_input-email{
+    text-align: center;
+    padding: .5rem;
+    margin:.5rem;
+    
+}
+.contacts_input-address{
+    text-align: center;
+    padding: .5rem;
+    margin:.5rem;
+   
+}
+.contacts_button{
+    padding: .5rem;
+    width: 10rem;
+    background-color: #536FA2;
+    color: #f4f5f6;
+}
+
+#phone{
+    padding-top: 1rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    align-items: center;
+    color: #333;
+}

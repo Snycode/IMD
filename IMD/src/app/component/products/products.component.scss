@@ -1,0 +1,36 @@
+.products-container{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.products_image{
+    width: 25rem;
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .3rem;
+    cursor: pointer;
+
+    
+}
+
+.products_campaign{
+text-align: center;
+font-size: 1.8rem;
+margin-top: 1rem;
+font-family: 'Otomanopee';
+font-weight: bold;
+}
+
+.products_paragraph{
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Yomogi';
+}
+

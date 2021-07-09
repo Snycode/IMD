@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Yomogi";
+    src: url("assets/Yomogi.ttf");
+
+    font-family: 'Alfa';
+    src: url('assets/Alfa.ttf');
+
+    font-family: 'Otomanopee';
+    src: url('assets/Otomanopee.ttf');
+
+    font-family: 'Lucki';
+    src: url('assets/Lucki.ttf');
+
+    font-family: 'Anton';
+    src: url('assets/Anton.ttf');
+
+
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +27,13 @@ $primary-bgcolor: #fff;
 
 body{
    background-color: $primary-bgcolor; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.active{
+ border-bottom: .2rem solid #536FA2;;
+ transition: all .2s ease-in-out;
+ box-shadow: .3rem .3rem;
 }
 
 html{

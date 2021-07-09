@@ -1,0 +1,33 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_cover{
+width:28vw;
+font-family: 'Lucki';
+text-align: center;
+padding-top: 1rem;
+font-size: 1.6rem;
+  
+}
+
+.about_video{
+    width: 40vw;
+    margin-right: 2rem;
+    border-radius: .5rem;
+}
+
+.about_image{
+width: 20vw;
+height: 27vh;
+margin: 0 auto;
+border-radius: .5rem;
+margin-bottom: 3rem;
+object-fit: cover;
+}
+.about_text{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
