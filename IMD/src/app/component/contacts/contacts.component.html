@@ -12,12 +12,12 @@
 
    <div class="contacts_dates">
     <p class="contacts_title2">dejanos tus datos</p>
-    <form action="" class="contact_form">
-        <input class="contacts_input" type="text" placeholder="Nombre" required>
-        <input class="contacts_input-phone" type="text" placeholder="Telefono" required>
-        <input class="contacts_input-email" type="email" placeholder="Correo" required>
-        <input class="contacts_input-address" type="text" placeholder="Direccion" required><br>
-        <input class="contacts_button" type="submit" value="Enviar">
+    <form (ngSubmit)='loginUser()' [formGroup]='loginForm' class="contact_form">
+        <input formControlName='name' class="contacts_input" type="text" placeholder="Nombre" required>
+        <input formControlName='phone' class="contacts_input-phone" type="text" placeholder="Telefono" required>
+        <input formControlName='email' class="contacts_input-email" type="email" placeholder="Correo" required>
+        <input formControlName='address' class="contacts_input-address" type="text" placeholder="Direccion" required><br>
+        <input [disabled]='loginForm.invalid' class="contacts_button" type="submit" value="Enviar">
     </form>
    
    </div>
