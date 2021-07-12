@@ -1,8 +1,10 @@
 <div class="header">
     <app-header></app-header>
 </div>
-<div class="banner">
+<div class="content" [ngClass]="{'backgroud-banner-one': state === 1, 'backgroud-banner-two' : state === 2, 'backgroud-banner-three' : state === 3}">
+    <app-button-left  (state)="changeBackgroudColor($event)"></app-button-left>
     <router-outlet></router-outlet>
+    <app-button-right (state)="changeBackgroudColor($event)"></app-button-right>
     
 </div>
 

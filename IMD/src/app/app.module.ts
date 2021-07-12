@@ -20,6 +20,10 @@ import { environment } from '../environments/environment';
 //reactive form
 
 import {ReactiveFormsModule} from '@angular/forms';
+import { TrafficComponent } from './component/traffic/traffic.component';
+import { MarketingComponent } from './component/marketing/marketing.component';
+import { ButtonLeftComponent } from './component/button-left/button-left.component';
+import { ButtonRightComponent } from './component/button-right/button-right.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,10 @@ import {ReactiveFormsModule} from '@angular/forms';
     AboutComponent,
     ProductsComponent,
     ContactsComponent,
+    TrafficComponent,
+    MarketingComponent,
+    ButtonLeftComponent,
+    ButtonRightComponent,
     
 
   ],

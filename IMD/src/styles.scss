@@ -23,13 +23,6 @@
     padding: 0;
 }
 
-$primary-bgcolor: #fff;
-
-body{
-   background-color: $primary-bgcolor; 
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
 .active{
  border-bottom: .2rem solid #536FA2;;
  transition: all .2s ease-in-out;
