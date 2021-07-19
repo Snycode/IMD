@@ -6,22 +6,15 @@
     position: absolute;
     bottom: 0;
     width: 70%;
-  
+   
     
-}
-
-
 .footer_contact{
     width: 5rem;
     height: 5rem;
    
 }
 
-.footer_text{
-    font-size: 1.8rem;
-    text-align: center;
-    margin-left: 1.7rem;
-}
+
 
 .footer_img{
 width: 7rem;
@@ -70,3 +63,21 @@ width: 7rem;
         font-size: 4rem
     }
 }
+    
+    
+}
+
+
+
+@media screen and (max-width: 367px){
+   
+    .footer-container{
+       background-color: red;
+       position: relative;
+       display: flex;
+       justify-content: space-between;
+       margin: auto;
+     
+    }
+   
+   }
